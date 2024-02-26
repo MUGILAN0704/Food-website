@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+/* .service{
+    width: 100%;
+    height:auto;
+} */
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26,25,25);
+    margin: 0px !important;
+}
+.navbar_rightside_content{
+    display: none;
+}
+.nav-item{
+    margin: 8px 0px;
+}
+
+/* .... item-slide .... */
+
+
+.items_container_4{
+    display: none;
+}
+.items_container_2{
+    display: none;
+}
+.item-slide {
+    height: 150px;
+}
+
+/* .... menu .... */
+
+.menu{
+    width: 100%;
+    padding-top:50px;
+    padding-bottom: 50px;
+  
+}
+.menu-2{
+    width: 100%;
+    padding-top:50px;
+    padding-bottom: 50px;
+  
+}
+.menu-3{
+    width: 100%;
+    padding-top:380px;
+    padding-bottom: 50px;
+  
+}
+
+/* .... video .... */
+
+.video-container video{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    padding-top: 50px;
+}
+
+/* .... slider .... */
+
+.side .title-1{
+    text-align: center;
+    color:red;
+    font-size:30px;
+    font-weight:600;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.sub-title{
+    padding-top: 380px;
+}
+.sub-title .tit-1{
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+}
+
+/* .... slider .... */
+
+.service{
+    min-height: 1270px;
+    margin: 0;
+}
+
+/* .... contact .... */
+/* .contact-head{
+    padding-top:760px;
+} */
+.contact{
+    height: auto;
+    width: 100%;
+    gap: 5rem;
+}
+
+.contact{
+    flex-direction: column;
+}
+.contact .contact-pro img{
+    width: 100%;
+}
+.contact-form{
+    width:100%;
+    padding: 1rem;
+}
+/* footer */
+.bottom{
+    flex-direction: column;
+
+}
+.fot1,.fot2,.fot3,.fot4{
+    width: 50%;
+}
+.fot5{
+    width: 100%;
+    padding: 0;
+}
+
+.bottom .fot1,.fot2,.fot3,.fot4,.fot5 h3{
+    padding: 0px 30px 0px 0px;
+    width: 100%;
+}
+.bottom{
+    padding:0px 0px 0px 50px;
+    
+}
+/* ...footer... */
+.footer{
+    text-align: center;
+    padding: 2rem;
+}
+.footer h1{
+    font-size:1rem;
+    font-weight: 600;
+}
+.footer h2{
+    font-size:1.5rem;
+    
+    font-weight: 900;
+    color:red !important;
+}
+}
+
+@media screen and (min-width:500px) and (max-width:767px) {
+    .navbar{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:black;
+    }
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(26,25,25);
+        margin: 0px !important;
+    }
+    .navbar_rightside_content{
+        display: none;
+    }
+    .nav-item{
+        margin: 8px 0px;
+    }
+    /* .... item-slide .... */
+
+
+     .items_container_4{
+    display: none;
+     }
+    .items_container_2{
+    display: none;
+    }
+    .item-slide {
+    height: 150px;
+    }
+
+    /* .... slider .... */
+ .service{
+    min-height: 1140px;
+    margin:5rem;
+
+ }
+
+    /* .... contact .... */
+/* .contact-head{
+    padding-top:800px;
+} */
+.contact{
+    height: auto;
+    width: 100%;
+    gap: 5rem;
+    flex-direction: column;
+}
+.contact .contact-pro img{
+    width: 100%;
+    /* padding:3%; */
+    height: 500px;
+}
+.contact-form{
+    width:100%;
+    /* padding: 1rem; */
+}
+
+/* ...footer... */
+
+.footer h1{
+    font-size:1rem;
+    font-weight: 600;
+}
+}
+
+
+@media screen and (min-width:767px) and (max-width:991px) {
+ /* .... slider .... */
+ .service{
+    min-height: 840px;
+    margin:5rem;
+
+ }
+ /* .... item-slide .... */
+
+ .navbar_rightside_content{
+    display: none;
+}
+.items_container_4{
+    display: none;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26,25,25);
+    margin: 0px !important;
+}
+/* ...footer... */
+
+.footer h1{
+    font-size:1.5rem;
+    font-weight: 600;
+}
+}
